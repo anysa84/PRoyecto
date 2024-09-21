@@ -1,0 +1,183 @@
+
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sofadi-one-regular {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ 
+  
+  .bungee-inline-regular {
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.contenedor{
+display: flex ;
+justify-content: center;
+margin: 10px;
+margin-inline: 10px;
+
+
+}  
+  
+
+body{
+    background-color:  rgb(42, 18, 49);
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fcfcfc;
+    justify-content: center;
+    margin-left: 50%;
+    margin-inline: 10px;
+
+
+}
+
+form {
+    background-color:  rgb(42, 18, 49);
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 40;
+    font-style: normal;
+    color: #dbd8d4;
+    justify-content: center ;
+    align-items: center;
+    margin-left: 50%;
+    height: 25px;
+    width: auto;
+    border-radius: 25
+    px;
+
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+ .Titulo {
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blue;
+    font-size: 80px;
+    animation: bounce 2s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+
+
+
+h2 {
+    color: blanchedalmond;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+div{
+    
+   
+    align-content: center;
+
+}
+
+ .azul {
+    background-color: hsl(0, 92%, 46%);
+   
+ 
+
+}
+
+ .Rojo {
+    background-color: hsl(0, 92%, 46%);
+
+}
+ .Amarillo {
+    background-color: hsl(0, 92%, 46%); 
+    
+
+}
+
+
+
+ .LOVE {
+    background-color: rgb(243, 125, 217);
+    margin: 10px;
+ 
+
+ } 
+
+ .CANT {
+    background-color: #f8dd85;
+    margin: 10px;
+ }
+
+.RING {
+    background-color: #b3d4f3;
+    margin: 10px;
+}
+
+
+
+
+/*.h3{
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(231, 231, 240);
+    animation: bounce 2s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+   
+
+    
+}
+*/
+
+/*
+.h3{
+    text-align: center;
+}*/
+
+
+/*
+
+.h1{
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(231, 231, 240);
+    animation: bounce 2s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}*/
