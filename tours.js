@@ -1,12 +1,18 @@
 const nombre = prompt("¿Cuál es tu nombre?");
-const edad = prompt("¿Cuántos años tienes?");
+let edad = prompt("¿Cuántos años tienes?");
 const mensaje = `Hola, ${nombre}. Tienes ${edad} años. ¡Bienvenido!`;
 console.log(mensaje);
-let HOLA = nombre
-nombre === "¿Cuál es tu nombre? "
-if (nombre de Usuatio ) {nombre !== nombre
-    console.log ( "completar sus datos")
-} else{
-    "¡Hola, " + nombre + "! ¡Bienvenido!";
+
+
+
+if (nombre.length>2 &&nombre!=null && edad>= 18){
+    alert (mensaje);
 }
+else{
+    if (nombre.length<=2)
+        alert ("Tienes que tener mas de 2 letras");
+    if (edad<18)
+        alert ("Eres menor de edad!!!");
+}
+    
 
