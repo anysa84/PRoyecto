@@ -21,52 +21,13 @@
   }
   
 .contenedor{
-display: flex ;
-justify-content: center;
-margin: 10px;
-margin-inline: 10px;
-
-
-}  
-  
-
-body{
-    background-color:  rgb(42, 18, 49);
-    font-family: "Bungee Inline", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fcfcfc;
+    display: flex ;
     justify-content: center;
-    margin-left: 50%;
+    margin: 10px;
     margin-inline: 10px;
 
-
-}
-
-form {
-    background-color:  rgb(42, 18, 49);
-    font-family: "Protest Guerrilla", sans-serif;
-    font-weight: 40;
-    font-style: normal;
-    color: #dbd8d4;
-    justify-content: center ;
-    align-items: center;
-    margin-left: 50%;
-    height: 25px;
-    width: auto;
-    border-radius: 25
-    px;
-
-
-input[type="text"] {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-
-
+    }  
+  
 
  .Titulo {
     font-family: "Bungee Inline", sans-serif;
@@ -79,7 +40,9 @@ input[type="text"] {
     justify-content: center;
     align-items: top;
 
-}
+    }
+
+
 @keyframes bounce {
     0% {
         transform: translateY(0);
@@ -87,18 +50,8 @@ input[type="text"] {
     100% {
         transform: translateY(-20px);
     }
-}
 
-
-
-
-h2 {
-    color: blanchedalmond;
-    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin: auto;
-
-}
+    }
 
 
 div{
@@ -107,6 +60,28 @@ div{
     align-content: center;
 
 }
+
+h2 {
+    color: #d9d1ee;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+ 
+body{
+    background-color:  rgb(42, 18, 49);
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   
+    justify-content: center;
+    margin-left: 50%;
+    margin-inline: 10px;
+}
+
+    
+
+
 
  .azul {
     background-color: hsl(0, 92%, 46%);
@@ -128,56 +103,32 @@ div{
 
 
  .LOVE {
-    background-color: rgb(243, 125, 217);
+   
     margin: 10px;
+    color: rgb(231, 120, 216);
  
 
  } 
 
  .CANT {
-    background-color: #f8dd85;
+    color: #f8dd85;
     margin: 10px;
  }
 
 .RING {
-    background-color: #b3d4f3;
+    color:#b3d4f3;
     margin: 10px;
 }
 
 
-
-
-/*.h3{
-    font-family: "Bungee Inline", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(231, 231, 240);
-    animation: bounce 2s infinite alternate;
-    display: flex;
+img{
     justify-content: center;
-    align-items: top;
+    width: 300px;
+    height: 300px;
 
-   
-
-    
 }
-*/
 
-/*
-.h3{
-    text-align: center;
-}*/
+.navbar{
 
-
-/*
-
-.h1{
-    font-family: "Bungee Inline", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(231, 231, 240);
-    animation: bounce 2s infinite alternate;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-}*/
+    color: hsl(239, 61%, 71%);
+}
