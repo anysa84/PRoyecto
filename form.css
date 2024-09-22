@@ -1,17 +1,36 @@
 
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sofadi-one-regular {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
 
+ 
+  
+  .bungee-inline-regular {
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 form {
     display: grid;
     row-gap: 8px;
-    font-family: "Bungee Inline", sans-serif;
+/*    font-family: "Bungee Inline", sans-serif;*/
     font-weight: 400; 
     color: hsl(231, 9%, 85%);
     align-items: center; 
     justify-content: center; 
     border-radius: 25px;
-    left: 50%;
+    /*left: 50%;*/
     margin-top: 50px;
-    margin-left: 40%;
+    /*margin-left: 40%;*/
     height: 50px;
     width: 500px;
     
@@ -22,7 +41,7 @@ body{
 }
 
 h3{
-    font-family: "bungee inline";
+    font-family: "Bungee Inline", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(255, 255, 255);
@@ -64,4 +83,22 @@ h3{
 }
 
 
+
+a{
+    display: flex;
+    row-gap: 8px;
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400; 
+    color: hsl(235, 75%, 97%);
+    /*align-items: center; */
+    justify-content: center; /* texto volver centrado*/
+    border-radius: 20px;
+    /*left: 50%;*/
+    background-color: rgb(215, 56, 236);
+/*  */
+    margin-top: 400px;
+    margin-left: 50%;
+    height: 30px;
+    width: 100px;
+}
 
