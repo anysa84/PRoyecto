@@ -15,4 +15,6 @@ else{
         alert ("Eres menor de edad!!!");
 }
     
-
+ Saludar () {
+     swal ( Hola, Bienvenido, ok)
+}

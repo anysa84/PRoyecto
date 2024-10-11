@@ -24,7 +24,7 @@ form {
     row-gap: 8px;
 /*    font-family: "Bungee Inline", sans-serif;*/
     font-weight: 400; 
-    color: hsl(231, 9%, 85%);
+    color: hsl(231, 44%, 21%);
     align-items: center; 
     justify-content: center; 
     border-radius: 25px;
@@ -37,7 +37,10 @@ form {
 }
 
 body{
-    background-color: hsl(286, 57%, 28%);
+ 
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(286, 76%, 42%);
 }
 
 h3{
@@ -57,34 +60,49 @@ h3{
     
 }
 
+
+
 .Titulo{
-    font-family: "bungee inline";
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    animation: bounce 2s infinite alternate;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-  
+  font-family: "bungee inline";
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  animation: bounce 2s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
 
-  }
-
-
-
-
-
-    input[type="text"] {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 
 
-a{
+  
+
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  
+}
+
+
+sa{
     display: flex;
     row-gap: 8px;
     font-family: "Bungee Inline", sans-serif;
@@ -96,9 +114,22 @@ a{
     /*left: 50%;*/
     background-color: rgb(215, 56, 236);
 /*  */
-    margin-top: 400px;
+    margin-top: 70%;
     margin-left: 50%;
     height: 30px;
     width: 100px;
+}
+
+a{
+  display:flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(215, 56, 236);
+  margin-top: 67%;
+  margin-left: 50%;
+  max-width: fit-content;
+
 }
 
